@@ -1,0 +1,226 @@
+
+.profile-container {
+    min-height: fit-content;
+    width: 100%;
+    overflow: auto;
+  }
+  
+  .profile-container>.profile-wrapper>.profile-content>footer {
+    width: 100%;
+    height: fit-content;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+  
+  .profile-wrapper {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+  
+  }
+  
+  .profile-content {
+    overflow: auto;
+    height: fit-content;
+    /* background-color: brown; */
+    width: 100%;
+    /* margin-left: 250px; */
+  }
+  
+  .profile-content>.profile-posts {
+    width: 100%;
+    min-height: 40vh;
+    padding: 10px;
+    /* background-color: tomato; */
+  }
+  
+  .profile-content>footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: blue; */
+    width: 100%;
+  }
+  
+
+.uploadFolder {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .profile-upload {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 1px solid black;
+  }
+  
+  .profile-picture {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .file-uploader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+  }
+  
+  .file-uploader>.upload-label {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .file-uploader>.upload-label>input {
+    opacity: 0;
+    width: 0px;
+    height: 0px;
+  }
+  
+  .file-uploader>.upload-label>.upload-icon {
+    font-size: 30px;
+    color: rgb(125, 125, 125);
+  }
+  
+  .profile-content>.profile-info {
+    /* width:1350px; */
+    width: 100%;
+    /* background-color: rgb(204, 143, 143); */
+  }
+  
+  .profileSetting {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: column;
+    /* padding-left: 100px; */
+  }
+  
+  .profileSetting>.firstBtn {
+    width: 700px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    font-size: 20px;
+  }
+  
+  .profileSetting>.firstBtn>.profileBtn {
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+  
+  }
+  
+  .profileSetting>.firstBtn>h5 {
+    font-size: 30px;
+  }
+  
+  .profileSetting>.firstBtn>.btnIcn {
+    border: none;
+    font-size: 25px;
+    background-color: white;
+  }
+  
+  .profileSetting>.firstBtn>.profileBtn:hover {
+    background-color: rgb(216, 215, 215);
+  }
+  
+  .profileSetting>.posts {
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+    font-size: 30px;
+    margin-top: 30px;
+    /* background-color: yellowgreen; */
+  }
+  
+  .highlight {
+    /* background: green; */
+    width: 100%;
+    height: 300px;
+  }
+  
+  .highlightFirst>.icn {
+    font-size: 120px;
+    border: 1px solid yellow;
+    border-radius: 50%;
+  }
+  
+  .highlightFirst>.icn:hover {
+    background-color: red;
+    box-shadow: 0px 3px 3px red;
+  }
+  
+  .highlightMain {
+    width: 100%;
+    height: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+  
+  }
+  
+  .highlightFirst {
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .profile-content>.profile-highlights {
+    /* width:1350px; */
+    width: 100%;
+    /* background-color: yellow; */
+  }
+  
+  .profile-highlights>.butonGroup {
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    width: 100%;
+    border-top: 1px solid black;
+  }
+  
+  .profile-highlights>.butonGroup>.profilebtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    font-weight: bold;
+    color: black;
+    gap: 10px;
+    text-decoration: none;
+  }

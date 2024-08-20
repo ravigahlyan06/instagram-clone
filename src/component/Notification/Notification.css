@@ -1,0 +1,69 @@
+.notification-container{
+    /* background-color: blue; */
+    height: 100%;
+    width:400px;
+   scroll-behavior: smooth;
+   overflow: auto;
+   background-color: white;
+}
+.notification-container>.notification-main{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.notification-container>.notification-main>.notification-header{
+    display: flex;
+    align-items: start;
+    justify-content:center;
+    flex-direction: column;
+}
+.notification-header>.notification-header-content{
+display: flex;
+align-items: center;
+justify-content:center;
+flex-direction: column;
+padding: 40px;
+gap:10px;
+/* background-color: yellowgreen; */
+}
+.notification-header>.notification-header-content>.notification-content-icn{
+    font-size: 30px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 20px;
+}
+.notification-container>.notification-main>.notification-suggest{
+    /* background-color:springgreen; */
+    width: 100%;
+}
+.notification-container>.notification-main>.notification-suggest>.suggest-data-show{
+    display: flex;
+align-items: center;
+justify-content:space-around;
+ padding: 10px;
+}
+.notification-container>.notification-main>.notification-suggest>.suggest-data-show>.sugust-profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.notification-container>.notification-main>.notification-suggest>.suggest-data-show>button{
+    border:none;
+    outline: none;
+    padding:5px 15px 5px 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    color: white;
+    background-color:#1a84f4;
+}
+.notification-container>.notification-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+
+}

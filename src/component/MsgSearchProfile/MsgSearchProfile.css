@@ -1,0 +1,70 @@
+
+.msg-profile-container{
+    position: absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    z-index: 9999999999;
+    background-color: rgba(95, 94, 94, 0.489);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.msg-profile-container>.msg-prfile-main{
+    padding: 10px;
+    background-color: white;
+    width: 550px;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.msg-profile-container>.msg-prfile-main>.msg-profile-header{
+    width: 100%;
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap:160px;
+    padding-right: 10px;
+}
+.msg-profile-container>.msg-prfile-main>.msg-profile-input {
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    margin-top: 20px;
+    width: 100%;
+    /* height: 250px; */
+    /* background-color: brown; */
+    display: flex;
+    align-items: flex-start;
+    justify-content:center;
+}
+.msg-profile-container>.msg-prfile-main>.msg-profile-data-found{
+    /* background-color: yellowgreen; */
+    width: 100%;
+    height: 150px;
+}
+
+.msg-profile-container>.msg-prfile-main>.msg-profile-btn{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: fit-content;
+    padding: 10px;
+    background-color: #1a84f4;
+
+}
+.msg-profile-container>.msg-prfile-main>.msg-profile-btn>button{
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: #1a84f4;
+    color: white;
+}
+

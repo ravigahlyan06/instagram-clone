@@ -1,0 +1,32 @@
+.suggust-container{
+    width: 100%;
+    height: 100%;
+    /* background-color: yellow; */
+}
+
+.suggust-container>.suggust-main>.notification-suggest{
+    /* background-color:springgreen; */
+    width: 100%;
+}
+.suggust-container>.suggust-main>.notification-suggest>.suggest-data-show{
+    display: flex;
+align-items: center;
+justify-content:space-around;
+ padding: 10px;
+}
+.suggust-container>.suggust-main>.notification-suggest>.suggest-data-show>.sugust-profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.suggust-container>.suggust-main>.notification-suggest>.suggest-data-show>button{
+    border:none;
+    outline: none;
+    padding:5px 15px 5px 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    color: white;
+    background-color:#1a84f4;
+}
